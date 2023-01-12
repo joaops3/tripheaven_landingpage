@@ -1,0 +1,6 @@
+.hidden {
+  @media (max-width: 500px) {
+    visibility: hidden;
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+$color_primary: #3b82f6;
+$color_primary_light: #60a5fa;
+$color_secondary: #fbbf24;
+$color_secondary_light: #fcd34d;
+$color_success: #12a454;
+$color_success_light: rgba(18, 164, 84, 0.5);
+$color_attention: #e83f5b;
+$color_attention_light: rgba(232, 63, 91, 0.5);
+
+$cards-colors: (
+  "green": #84cc16,
+  "red": #ef4444,
+  "yellow": #f59e0b,
+  "blue": #06b6d4,
+  "purple": #a855f7,
+  "pink": #f472b6,
+);
+
+$color_title: #1d1b4d;
+$color_subtitle: #312e81;
+$color_text: #6b7280;
+
+$color_background: #f9fafb;
+$color_background_shape: #f4f4f5;
+
+$font_size_title: 2rem;
+$font_size_subtile: 1.7rem;
+$font_size_text: 1.3rem;
+
+$font_family_title: "Roboto", sans-serif;
+$font_family_subtile: "Playfair Display", serif;
+$font_family_text: "Roboto", sans-serif;

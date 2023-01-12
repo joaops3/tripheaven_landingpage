@@ -1,0 +1,44 @@
+.cards-section {
+  .c1:hover {
+    border-bottom: 5px solid green;
+    margin-bottom: -5px;
+  }
+  .c2:hover {
+    border-bottom: 5px solid red;
+    margin-bottom: -5px;
+  }
+  .c3:hover {
+    border-bottom: 5px solid purple;
+    margin-bottom: -5px;
+  }
+
+  .card-container {
+    background-color: $color_background_shape;
+    max-width: 300px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px rgba(155, 155, 155, 0.26);
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+      transition: all 0.1s ease-in-out;
+      // box-shadow: 2px 0px 29px 16px rgba(155, 155, 155, 0.26);
+    }
+
+    i {
+      font-size: 30px;
+    }
+
+    .icon-container {
+      text-align: center;
+    }
+    h3 {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}

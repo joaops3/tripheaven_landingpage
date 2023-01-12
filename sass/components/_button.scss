@@ -1,0 +1,33 @@
+.primary-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+
+  background-color: $color_primary;
+  color: $color_background;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+  &:hover {
+    background-color: $color_primary_light;
+    color: $color_text;
+    font-weight: bold;
+  }
+}
+
+.secondary-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+
+  background-color: $color_secondary;
+  color: $color_background;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+  &:hover {
+    background-color: $color_secondary_light;
+    color: $color_text;
+    font-weight: bold;
+  }
+}

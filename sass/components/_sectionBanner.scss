@@ -1,0 +1,18 @@
+.section-banner {
+  background-color: $color_background_shape;
+  h2 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-top: 10px;
+  }
+
+  .img-container {
+    box-shadow: 0 0 5px 2px 3px rgba(155, 155, 155, 0.26);
+  }
+  img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+  }
+}

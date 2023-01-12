@@ -1,0 +1,66 @@
+.footer {
+  background-color: $color_background_shape;
+
+  .logo {
+    font-family: $font_size_subtile;
+    span {
+      font-family: $font_size_subtile;
+      font-weight: bold;
+      color: $color_primary;
+    }
+    font-size: 3rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    .about-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      a:hover {
+        color: $color_subtitle;
+      }
+    }
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    span {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    .social-links {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      i {
+        font-size: 1.5rem;
+
+        &:hover {
+          color: $color_subtitle;
+        }
+      }
+    }
+  }
+}

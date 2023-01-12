@@ -1,0 +1,51 @@
+.header {
+  background-color: $color_background;
+  box-shadow: -6px 61px 127px -31px rgba(99, 99, 99, 0.7);
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img {
+    width: 200px;
+    height: 60px;
+  }
+
+  .logo {
+    font-family: $font_size_subtile;
+    span {
+      font-family: $font_size_subtile;
+      font-weight: bold;
+      color: $color_primary;
+    }
+    font-size: 1.7rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 65px;
+    a {
+      cursor: pointer;
+    }
+
+    li {
+      height: 65px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      &:hover {
+        border-bottom: 5px solid $color_primary;
+        margin-bottom: -5px;
+      }
+    }
+  }
+}
