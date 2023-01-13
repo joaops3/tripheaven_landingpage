@@ -1,6 +1,12 @@
 .hidden {
-  @media (max-width: 500px) {
-    visibility: hidden;
+  @media (max-width: 768px) {
     display: none;
+  }
+}
+
+
+.visible{
+  @media (max-width: 768px) {
+    display: inline-block;
   }
 }
