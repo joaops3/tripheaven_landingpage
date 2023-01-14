@@ -11489,6 +11489,7 @@ span {
 }
 .cards-section .card-container i {
   font-size: 30px;
+  color: #1d1b4d;
 }
 .cards-section .card-container .icon-container {
   text-align: center;
@@ -11627,6 +11628,15 @@ span {
   font-family: 1.7rem;
   font-weight: bold;
   color: #3b82f6;
+}
+.footer .footer-content {
+  justify-content: end;
+}
+@media (max-width: 768px) {
+  .footer .footer-content {
+    margin-top: 15px;
+    justify-content: center;
+  }
 }
 .footer .about-container {
   display: flex;
